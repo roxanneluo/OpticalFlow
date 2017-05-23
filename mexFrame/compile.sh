@@ -1,0 +1,1 @@
+g++ -D_LINUX_MAC -D_OPENCV -I/projects/grail/supasorn2nb/local/include/ -I/projects/grail/supasorn2nb/local/include/opencv -L/projects/grail/supasorn2nb/local/lib aek.cpp CVOpticalFlow.a -lopencv_highgui -lopencv_calib3d -lopencv_core -lopencv_imgproc -lopencv_ml -lopencv_features2d -lopencv_flann -fopenmp -o test

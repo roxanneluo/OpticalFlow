@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ImageIO	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	ImageIO(void);$/;"	p	class:ImageIO	access:public	signature:(void)
+ImageIO	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^class ImageIO$/;"	c
+ImageIO::ImageIO	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	ImageIO(void);$/;"	p	class:ImageIO	access:public	signature:(void)
+ImageIO::ImageType	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	g	class:ImageIO	access:public
+ImageIO::derivative	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	e	enum:ImageIO::ImageType
+ImageIO::loadImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	static bool loadImage(const char* filename,T*& pImagePlane,int& width,int& height, int& nchannels);$/;"	p	class:ImageIO	access:public	signature:(const char* filename,T*& pImagePlane,int& width,int& height, int& nchannels)
+ImageIO::loadImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^bool ImageIO::loadImage(const char *filename, T *&pImagePlane, int &width, int &height, int &nchannels)$/;"	f	class:ImageIO	signature:(const char *filename, T *&pImagePlane, int &width, int &height, int &nchannels)
+ImageIO::normalized	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	e	enum:ImageIO::ImageType
+ImageIO::saveImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	static bool saveImage(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype = standard);$/;"	p	class:ImageIO	access:public	signature:(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype = standard)
+ImageIO::saveImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^bool ImageIO::saveImage(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype)$/;"	f	class:ImageIO	signature:(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype)
+ImageIO::standard	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	e	enum:ImageIO::ImageType
+ImageIO::~ImageIO	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	~ImageIO(void);$/;"	p	class:ImageIO	access:public	signature:(void)
+ImageType	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	g	class:ImageIO	access:public
+_ImageIO_h	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	2;"	d
+derivative	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	e	enum:ImageIO::ImageType
+loadImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	static bool loadImage(const char* filename,T*& pImagePlane,int& width,int& height, int& nchannels);$/;"	p	class:ImageIO	access:public	signature:(const char* filename,T*& pImagePlane,int& width,int& height, int& nchannels)
+loadImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^bool ImageIO::loadImage(const char *filename, T *&pImagePlane, int &width, int &height, int &nchannels)$/;"	f	class:ImageIO	signature:(const char *filename, T *&pImagePlane, int &width, int &height, int &nchannels)
+normalized	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	e	enum:ImageIO::ImageType
+saveImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	static bool saveImage(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype = standard);$/;"	p	class:ImageIO	access:public	signature:(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype = standard)
+saveImage	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^bool ImageIO::saveImage(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype)$/;"	f	class:ImageIO	signature:(const char* filename,const T* pImagePlane,int width,int height, int nchannels,ImageType imtype)
+standard	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	enum ImageType{standard, derivative, normalized};$/;"	e	enum:ImageIO::ImageType
+~ImageIO	/homes/grail/supasorn/research/OpticalFlow/mex/ImageIO.h	/^	~ImageIO(void);$/;"	p	class:ImageIO	access:public	signature:(void)
